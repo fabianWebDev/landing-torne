@@ -27,7 +27,7 @@ export default function PassesSection() {
     <div className="w-full">
       <section className="mx-auto max-w-6xl px-6 py-14" id="pases-y-entradas">
         <div className="mb-8 text-center">
-          <h2 className="text-5xl font-bold text-highlight font-bebas-neue tracking-widest after:content-[''] after:block after:h-2 after:w-60 after:bg-highlight after:mx-auto after:mt-3">Reserva tu lugar</h2>
+          <h2 className="text-6xl font-bold text-highlight font-bebas-neue tracking-widest after:content-[''] after:block after:h-2 after:w-60 after:bg-highlight after:mx-auto after:mt-3">Reserva tu lugar</h2>
         </div>
 
         <div

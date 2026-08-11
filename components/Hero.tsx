@@ -16,7 +16,7 @@ export default function Hero() {
                 <p className="text-left text-sm sm:text-xl md:text-xl lg:text-3xl">*Cupo limitado*</p>
                 <a
                   className="mt-2 inline-block bg-highlight px-4 py-2 text-3xl font-bold text-white md:mt-4 font-bebas-neue tracking-widest md:text-4xl"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScmogv5bI8x2hAUgIWOuEj-FXsUNJMEOkEp1EpcKPk0W7KMuQ/viewform?usp=publish-editor"
+                  href="https://docs.google.com/forms/"
                   target="_blank"
                   rel="noreferrer"
                 >
