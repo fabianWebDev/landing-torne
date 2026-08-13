@@ -9,7 +9,7 @@ const packages = [
     ctaLabel: "Comprar entrada",
     featured: true,
     size: "large" as const,
-    validity: "Precio de preventa hasta el 15 de abril o hasta agotar cupos",
+    validity: "Precio de preventa hasta el 30 de septiembre o hasta agotar cupos",
     extra: "Con la compra de esta entrada obten 50% de descuento en el torneo Montés de Oca Judo Open 2026.",
   },
   {
