@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 /** Fecha y hora del evento (Costa Rica, UTC−6). Ajusta si cambia el horario. */
-const EVENT_AT = new Date("2026-10-16T18:00:00-06:00");
+const EVENT_AT = new Date("2026-10-17T16:00:00-06:00");
 
 function pad(n: number) {
   return String(Math.max(0, n)).padStart(2, "0");
@@ -88,10 +88,10 @@ export default function Timer() {
             segundos
           </span>
         </div>
-
+        {/* 
         <p className="mt-4 text-sm text-neutral-700 dark:text-neutral-200 text-center">
           *Precio de preventa hasta el 15 de Agosto o hasta agotar cupos*
-        </p>
+        </p> */}
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ const faqItems = [
   },
   {
     question: "¿Cuales son los horarios del seminario?",
-    answer: "El seminario dura 4 días. Desde el 13 al 15 de Agosto, de 6:00 p.m a 9:00 p.m. El 16 de Agosto, de 8:30 a.m a 12:30 p.m.",
+    answer: "El seminario dura 2 días. Los días 17 y 18 de octubre, de 4:00 pm a 6:30 pm.",
   },
   {
     question: "¿Necesito experiencia en judo?",

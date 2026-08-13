@@ -26,6 +26,8 @@ export default function David() {
                         alt="David García Torné"
                         fill
                         className="object-contain object-bottom scale-125 md:scale-150 translate-x-[-20%] translate-y-[10%]"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        loading="eager"
                     />
                 </div>
 

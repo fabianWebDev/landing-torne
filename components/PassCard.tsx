@@ -7,6 +7,7 @@ type PassCardProps = {
   featured?: boolean;
   size?: "regular" | "large";
   validity?: string;
+  extra?: string;
 };
 
 export default function PassCard({
@@ -18,6 +19,7 @@ export default function PassCard({
   featured = false,
   size = "regular",
   validity,
+  extra,
 }: PassCardProps) {
   const isLarge = size === "large";
 
@@ -58,14 +60,15 @@ export default function PassCard({
             ? "bg-highlight text-white hover:bg-highlight/80"
             : "bg-highlight text-white hover:bg-highlight/80",
         ].join(" ")}
-        href="https://docs.google.com/forms/d/e/1FAIpQLScmogv5bI8x2hAUgIWOuEj-FXsUNJMEOkEp1EpcKPk0W7KMuQ/viewform?usp=publish-editor"
+        href="https://forms.gle/UVWLyNX4j93EXNDA6"
         target="_blank"
         rel="noreferrer"
       >
         {ctaLabel}
       </a>
+      {extra && <p className="mt-4 text-xs text-gray-950 font-bold">{extra}</p>}
+      {validity && <p className="mt-2 text-xs text-gray-950 font-light">{validity}</p>}
 
-      {validity && <p className="mt-6 text-sm text-gray-950 font-bold">{validity}</p>}
     </article>
   );
 }

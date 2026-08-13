@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Seminario David García Torné",
   description: "Seminario David García Torné",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   },
   openGraph: {
     title: "Seminario David García Torné",

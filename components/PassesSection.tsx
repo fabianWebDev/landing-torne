@@ -3,21 +3,23 @@ import PassCard from "@/components/PassCard";
 const packages = [
   {
     name: "Preventa",
-    price: "37.500",
+    price: "30.000",
     details: "Entrada completa al seminario",
-    features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 4 días"],
+    features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 2 días"],
     ctaLabel: "Comprar entrada",
     featured: true,
     size: "large" as const,
     validity: "Precio de preventa hasta el 15 de abril o hasta agotar cupos",
+    extra: "Con la compra de esta entrada obten 50% de descuento en el torneo Montés de Oca Judo Open 2026.",
   },
   {
     name: "Entrada General",
-    price: "49.900",
+    price: "47.500",
     details: "Entrada completa al seminario",
-    features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 4 días"],
+    features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 2 días"],
     ctaLabel: "Comprar entrada",
     size: "regular" as const,
+    extra: "Con la compra de esta entrada obten 50% de descuento en el torneo Montés de Oca Judo Open 2026.",
   },
 
 ];
