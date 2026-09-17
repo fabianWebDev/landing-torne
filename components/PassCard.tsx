@@ -8,6 +8,7 @@ type PassCardProps = {
   size?: "regular" | "large";
   validity?: string;
   extra?: string;
+  priceDetails?: string;
 };
 
 export default function PassCard({
@@ -20,6 +21,7 @@ export default function PassCard({
   size = "regular",
   validity,
   extra,
+  priceDetails,
 }: PassCardProps) {
   const isLarge = size === "large";
 
@@ -43,6 +45,7 @@ export default function PassCard({
         {name}
       </h3>
       <p className="mt-2 text-3xl font-extrabold text-gray-900">₡{price}</p>
+      {priceDetails && <p className="mt-2 text-sm text-gray-800 font-bold">{priceDetails}</p>}
       <p className="mt-2 text-sm text-gray-600">{details}</p>
 
       <ul className="mt-5 pl-6 text-sm text-gray-700">

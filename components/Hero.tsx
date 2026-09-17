@@ -22,6 +22,7 @@ export default function Hero() {
                 >
                   Reservar mi cupo
                 </a>
+                <p className="text-left text-sm sm:text-xl md:text-xl lg:text-3xl">Invitada especial: Mireia Rodríguez, integrante del equipo Nacional de España - 48 kg.</p>
             </div>
         </section>
     );

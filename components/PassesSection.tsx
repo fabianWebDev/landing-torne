@@ -5,7 +5,7 @@ import PassCard from "@/components/PassCard";
 
 const packages = [
   {
-    name: "Entrada Afiliados",
+    name: "Entrada General - Afiliados a FECOJUDO",
     price: "50.000",
     details: "Entrada completa al seminario",
     features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 2 días"],
@@ -14,23 +14,27 @@ const packages = [
     extra: "Fecha límite de compra: 12 de octubre de 2026.",
   },
   {
-    name: "Semario + Torneo",
+    name: "Seminario + Torneo",
     price: "35.000",
-    details: "Entrada completa al seminario + Torneo Montés de Oca Judo Open 2026",
-    features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 2 días", "Entrada al torneo Montés de Oca Judo Open 2026"],
+    priceDetails: "+ Costo de inscripción al torneo conforme a su categoría.",
+    features: [
+      "Entrada completa al seminario",
+      "Acceso a todas las actividades",
+      "Acceso a 2 días",
+    ],
     ctaLabel: "Comprar entrada",
     featured: true,
     size: "large" as const,
-    extra: "Aplica a partir de sub-13. Cupo limitado.",
+    extra: "Fecha límite de compra: 12 de octubre de 2026. ₡35.000 aplica únicamente al inscribirse al torneo. A partir de sub-13. Cupo limitado.",
   },
   {
-    name: "Entrada General",
+    name: "Entrada General - No Afiliados a FECOJUDO",
     price: "60.000",
     details: "Entrada completa al seminario",
     features: ["Entrada completa al seminario", "Acceso a todas las actividades", "Acceso a 2 días"],
     ctaLabel: "Comprar entrada",
     size: "regular" as const,
-    extra: "Fecha límite de compra: 12 de octubre de 2026.",
+    extra: "Fecha límite de compra: 12 de octubre de 2026. Extranjeros de paises afiliados a la IJF pagan como afiliados a la FECOJUDO.",
   },
 ];
 
