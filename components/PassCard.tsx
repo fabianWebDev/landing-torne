@@ -1,12 +1,12 @@
 type PassCardProps = {
   name: string;
   price: string;
-  details: string;
   features: string[];
   ctaLabel?: string;
   featured?: boolean;
   size?: "regular" | "large";
   validity?: string;
+  details?: string;
   extra?: string;
   priceDetails?: string;
 };
@@ -46,7 +46,7 @@ export default function PassCard({
       </h3>
       <p className="mt-2 text-3xl font-extrabold text-gray-900">₡{price}</p>
       {priceDetails && <p className="mt-2 text-sm text-gray-800 font-bold">{priceDetails}</p>}
-      <p className="mt-2 text-sm text-gray-600">{details}</p>
+      {details && <p className="mt-2 text-sm text-gray-600">{details}</p>}
 
       <ul className="mt-5 pl-6 text-sm text-gray-700">
         {features.map((feature) => (
