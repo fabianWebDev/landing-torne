@@ -14,9 +14,8 @@ const packages = [
     extra: "Fecha límite de compra: 12 de octubre de 2026.",
   },
   {
-    name: "Seminario + Torneo",
+    name: "Seminario (Solo aplica para competidores inscritos al torneo Montes de Oca International Judo Open)",
     price: "35.000",
-    priceDetails: "+ Costo de inscripción al torneo conforme a su categoría.",
     features: [
       "Entrada completa al seminario",
       "Acceso a todas las actividades",
@@ -25,7 +24,7 @@ const packages = [
     ctaLabel: "Comprar entrada",
     featured: true,
     size: "large" as const,
-    extra: "Fecha límite de compra: 12 de octubre de 2026. ₡35.000 aplica únicamente al inscribirse al torneo. A partir de sub-13. Cupo limitado.",
+    extra: "Fecha límite de compra: 12 de octubre de 2026. ₡35.000 aplica únicamente para competidores inscritos al torneo. A partir de sub-13. Cupo limitado.",
   },
   {
     name: "Entrada General - No Afiliados a FECOJUDO",
